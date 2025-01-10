@@ -1,4 +1,3 @@
-/* Estilos generales */
 body {
     background: linear-gradient(270deg, #ff0000, #000000);
     background-size: 400% 400%;
@@ -74,7 +73,7 @@ button:hover {
     margin: 20px auto;
     max-width: 800px;
     animation: fadeIn 3s ease;
-    background: transparent; /* Se elimina el fondo rojo */
+    background: transparent;
     color: white;
 }
 
@@ -87,27 +86,24 @@ button:hover {
     margin: 5px 0;
 }
 
-/* Contenedor para la imagen */
 .contenedor-imagen {
     max-width: 800px;
     padding: 20px;
     text-align: center;
-    border: none; /* Borde eliminado */
+    border: none;
 }
 
-/* Imagen sin borde ni padding */
 .lado-izquierda {
     display: block;
     max-width: 100%;
     height: auto;
     animation: fadeIn 4s ease;
-    margin-top: 0;           /* Elimina el margen superior de la imagen */
-    margin-bottom: 5px;      /* Reduce aún más el margen inferior de la imagen */
-    border: none;            /* Borde eliminado */
-    padding: 0;              /* Elimina el padding interno */
+    margin-top: 0;
+    margin-bottom: 5px;
+    border: none;
+    padding: 0;
 }
 
-/* Animaciones */
 @keyframes gradient-animation {
     0% {
         background-position: 0% 50%;
@@ -129,7 +125,6 @@ button:hover {
     }
 }
 
-/* Responsividad */
 @media (max-width: 768px) {
     h1 {
         font-size: 2em;
